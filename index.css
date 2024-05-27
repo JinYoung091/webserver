@@ -250,12 +250,18 @@ body {
 }
 
 
+.poster{
+    width: 250px;
+    height: 360px;
+}
+
+
 .poster_img1{
     background-image:url(./img/범죄도시\ 4.jpg);
     background-size: cover;
     background-position: center;
-    width: 249px;
-    height: 363px;
+    width: 250px;
+    height: 360px;
     margin: 0;
     padding: 0;
     border-radius: 5px;
@@ -264,8 +270,8 @@ body {
     background-image:url(./img/하이큐.jpg);
     background-size: cover;
     background-position: center;
-    width: 249px;
-    height: 363px;
+    width: 250px;
+    height: 360px;
     margin: 0;
     padding: 0;
     border-radius: 5px;
