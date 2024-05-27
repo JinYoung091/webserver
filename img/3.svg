@@ -1,0 +1,12 @@
+<svg width="100" height="60" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- 로고 배경 -->
+  <rect width="100" height="60" fill="#FFFFFF" />
+  
+  <!-- 아이콘: 영화 클랩보드 -->
+  <rect x="10" y="15" width="15" height="20" fill="#32CD32" />
+  <line x1="10" y1="15" x2="25" y2="15" stroke="#32CD32" stroke-width="2" />
+  <line x1="10" y1="20" x2="25" y2="20" stroke="#32CD32" stroke-width="2" />
+  
+  <!-- 브랜드명 -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="16" fill="#000000">MovieChoice</text>
+</svg>
