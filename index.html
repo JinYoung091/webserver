@@ -9,10 +9,8 @@
 <body>
     <script src="https://kit.fontawesome.com/e9b9db9a02.js" crossorigin="anonymous"></script>
     <div id="header">
-        <script src="./header.js"></script>
         <div class="header">
             <div class="menu">
-
                 <ul>
                     <li style="width: 185px;"><a href="" class="logo">Movie Choice</a></li>
                     <li><a href="">인기영화</a></li>
@@ -24,11 +22,11 @@
                         </ul>
                     </li>
                 </ul>
-
             </div>
+            <script src="./header.js"></script>
             <form class="search_box" action="" method="get">
-                <input class="search_txt" type="text" name="" placeholder="검색어를 입력하세요" onkeyup="search()">
-                <ul class="suggestions"> </ul>
+                <input id="search_input" type="text" name="" placeholder="검색어를 입력하세요" onkeyup="search()">
+                <ul id="suggestions"></ul>
                 <button class="search_btn" type="submit">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -39,7 +37,6 @@
     </div>
 
     <div id="main">
-        <script src="./main.js"></script>
         <div class="modal">
             <div class="modal_body">
                 <div>
@@ -299,6 +296,8 @@
                 </div>
             </section>
         </div>
+
+        <script src="index.js"></script>
     </div>
     <div id="footer">
 
