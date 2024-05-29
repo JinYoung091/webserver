@@ -82,12 +82,12 @@ body {
 }
 .search_box {
     height: 30px;
-    width: 280px;
+    width: 300px;
     background-color: #FFFFFF;
     border-radius: 40px;
     padding: 10px;
     border: 1px solid #a1ff9b;
-    margin-left: 34%;
+    margin-left: 30%;
 
 }
 
@@ -100,23 +100,25 @@ body {
     color: #797979;
     font-size: 16px;
     line-height: 30px;
-    width: 250px;
+    width: 270px;
 }
 
 #suggestions {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-top: 55px;
     max-height: 150px;
     overflow-y: auto;
     position: absolute;
-    width: 100%;
+    width: 290px;
     background-color: white;
     z-index: 1000;
 }
 
 #suggestions li {
     padding: 10px;
+    width: 100%;
     cursor: pointer;
 }
 

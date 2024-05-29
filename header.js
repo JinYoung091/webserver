@@ -3,7 +3,7 @@
 const data = [
     { name: "범인" },
     { name: "범죄" },
-    { name: "이효섭 대지" },
+    { name: "범람" },
     { name: "범위" },
     { name: "정보" }
 ];
