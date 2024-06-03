@@ -5,14 +5,14 @@
             "Name": "혹성탈출",
             "Poster": "url",
             "Release": 2022,
-            "국가": "미국"
+            "nation": "미국"
         },
         {
             "Id": 1,
             "Name": "범죄도시",
             "Poster": "url",
             "Release": 2022,
-            "국가": "한국"
+            "nation": "한국"
         }
     ]
 }
