@@ -37,6 +37,7 @@
     </div>
 
     <div id="main">
+        <script src="./main.js"></script>
         <div class="modal">
             <div class="modal_body">
                 <div>
@@ -55,16 +56,17 @@
                 <p>계정이 없으신가요?<a href="" style="color: #27f418;">회원가입</a></p>
             </div>
         </div>
-<script src="./main.js"></script>
+
         <div class="popular_movie">
             <div class="title">
                 <p>인기영화</p>
             </div>
 
             <section class="postlist">
-                <div>
+                <button class="carousel-button prev-button">prev</button>
+                <div class="rolling">
+
                     <ul class="slide">
-                        <div class="rolling">
                             <li class="postitem">
                                 <a href="" class="view">
                                     <div class="poster">
@@ -206,10 +208,10 @@
                                     </div>
                                 </a>
                             </li>
-                        </div>
                     </ul>
-                    <button class=""></button>
+
                 </div>
+                <button class="carousel-button next-button">next</button>
             </section>
         </div>
 
@@ -218,7 +220,7 @@
                 <p>신규영화</p>
             </div>
             <section class="postlist">
-                <div>
+                <div class="rolling">
                     <ul>
                         <li class="postitem">
                             <a href="" class="view">

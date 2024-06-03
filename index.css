@@ -289,7 +289,8 @@ body {
     display: flex;
     position: relative;
     flex-wrap: nowrap;
-    overflow: visible;
+    inline-size: none;
+    transition: transform 0.5s ease;
 }
 
 .rolling{
@@ -297,7 +298,8 @@ body {
 }
 
 .postitem{
-    min-width: 19%;
+    min-width: 20%;
+    box-sizing: border-box;
     display: inline-block;
 }
 
@@ -328,6 +330,26 @@ body {
     padding: 0;
     border-radius: 5px;
 }
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-button {
+    left: 0;
+  }
+  
+.next-button {
+    right: 0;
+  }
 
 .expname{
 
