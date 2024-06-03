@@ -32,3 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.style.transform = `translateX(${newTransformValue}px)`;
   }
 });
+
+document.querySelector(".search_box").addEventListener('submit', function(e){
+  e.preventDefault()
+  const a = document.createElement("a")
+  a.href = "/searchResult.html"
+  a.click()
+})
