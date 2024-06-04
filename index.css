@@ -276,6 +276,9 @@ body {
 }
 
 .title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     width: 1320px;
     max-height: 60px;
     line-height: 30px;
@@ -286,13 +289,19 @@ body {
     white-space: nowrap;
 }
 
-.title>p {
+.title > p {
     font-size: 22px;
     line-height: 30px;
     font-family: 'NPSfontBold';
     white-space: nowrap;
     padding: 0;
     margin: 0;
+}
+
+.title > a {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #9C9C9C;
 }
 
 .postlist {
@@ -328,7 +337,7 @@ body {
 }
 
 .postitem {
-    min-width: 19%;
+    min-width: 19.2%;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -349,7 +358,7 @@ body {
     height: 360px;
     margin: 0;
     padding: 0;
-    border-radius: px;
+
 }
 
 .poster-img2 {
@@ -360,6 +369,7 @@ body {
     height: 360px;
     margin: 0;
     padding: 0;
+
 }
 
 .carousel-button {
