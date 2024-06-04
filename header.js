@@ -9,7 +9,7 @@ const data = [
 ];
 
 function search() {
-    const query = document.getElementById('search_input').value.toLowerCase();
+    const query = document.getElementById('search-input').value.toLowerCase();
     const suggestions = document.getElementById('suggestions');
     suggestions.innerHTML = '';
 
@@ -19,7 +19,7 @@ function search() {
             const li = document.createElement('li');
             li.textContent = item.name;
             li.onclick = () => {
-                document.getElementById('search_input').value = item.name;
+                document.getElementById('search-input').value = item.name;
                 suggestions.innerHTML = '';
             };
             suggestions.appendChild(li);

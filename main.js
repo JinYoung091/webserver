@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-document.querySelector(".search_box").addEventListener('submit', function(e){
+document.querySelector(".search-box").addEventListener('submit', function(e){
   e.preventDefault()
   const a = document.createElement("a")
   a.href = "/searchResult.html"

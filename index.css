@@ -4,16 +4,19 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'NPSfontBold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts-2310@1.0/NPSfontBold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000000;
 }
+
 ul,
 ol {
     list-style: none;
@@ -22,7 +25,8 @@ ol {
     margin-block: 0 0;
     padding-inline-start: 0;
 }
-li{
+
+li {
     list-style: none;
 }
 
@@ -30,7 +34,7 @@ html,
 body {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 #header {
@@ -41,46 +45,49 @@ body {
     border-bottom: 0.5px solid #757575;
 
 }
+
 .header {
     max-width: 1320px;
     height: 70px;
     display: flex;
     margin: 0 auto;
-    align-items:center;
+    align-items: center;
 }
 
-.menu{
+.menu {
     padding: 0;
     width: 500px;
     height: 70px;
-    margin:0 auto;
+    margin: 0 auto;
     line-height: 60px;
     margin-right: auto;
     z-index: 2;
 }
-.menu > ul > li {
-    float:left;
+
+.menu>ul>li {
+    float: left;
     width: 120px;
     height: 70px;
-    position:relative;
+    position: relative;
 }
 
-.menu > ul > li > ul {
-    width:130px;
-    display:none;
+.menu>ul>li>ul {
+    width: 130px;
+    display: none;
     position: absolute;
     font-size: 14px;
-    background: #ffffff3b;    
+    background: #ffffff3b;
 }
 
-.menu > ul > li:hover > ul {
-    display:block;
+.menu>ul>li:hover>ul {
+    display: block;
 }
 
-.logo{
+.logo {
     font-size: 20px;
 }
-.search_box {
+
+.search-box {
     height: 30px;
     width: 300px;
     background-color: #FFFFFF;
@@ -91,7 +98,7 @@ body {
 
 }
 
-#search_input {
+#search-input {
     border: none;
     background-color: none;
     outline: none;
@@ -126,7 +133,7 @@ body {
     background-color: #f0f0f0;
 }
 
-.search_btn {
+.search-btn {
     color: #a1ff9b;
     font-family: 'KKC-Hanbit';
     width: 30px;
@@ -146,7 +153,7 @@ body {
     background-color: #FFFFFF;
     color: #757575;
     font-family: 'KCC-Hanbit', sans-serif;
-    cursor : pointer;
+    cursor: pointer;
 }
 
 
@@ -178,7 +185,7 @@ body {
     overflow: hidden;
 }
 
-.modal_body {
+.modal-body {
     position: absolute;
     top: 50%;
 
@@ -197,29 +204,29 @@ body {
     transform: translateY(-50%);
 }
 
-.modal_body>h1 {
+.modal-body>h1 {
     margin-bottom: 25px;
 }
 
-.modal_body>button {
+.modal-body>button {
     margin-bottom: 15px;
     font-family: 'KCC-Hanbit', sans-serif;
 }
 
-.modal_body>div>button {
+.modal-body>div>button {
     margin-left: 98%;
     outline: none;
     border: 0;
     background-color: white;
-    cursor : pointer;
+    cursor: pointer;
 }
 
-.modal_body>div>button>img {
+.modal-body>div>button>img {
     width: 15px;
     height: 15px;
 }
 
-.modal_body>input {
+.modal-body>input {
     width: 300px;
     height: 40px;
     font-size: 15px;
@@ -232,7 +239,7 @@ body {
     background-color: #E9E9E9;
 }
 
-.modal_body>h2 {
+.modal-body>h2 {
     margin: 20px 0;
 
 }
@@ -245,7 +252,7 @@ body {
     margin: 15px 0 20px 0;
 }
 
-.login_btn {
+.login-btn {
     margin-top: 30px;
     width: 400px;
     height: 50px;
@@ -257,11 +264,11 @@ body {
     background-color: #27f418;
 }
 
-.popular_movie{
+.popular-movie {
     margin-bottom: 55px;
 }
 
-.title{
+.title {
     width: 1320px;
     max-height: 60px;
     line-height: 30px;
@@ -271,7 +278,8 @@ body {
     box-sizing: border-box;
     white-space: nowrap;
 }
-.title > p{
+
+.title>p {
     font-size: 22px;
     line-height: 30px;
     font-family: 'NPSfontBold';
@@ -279,56 +287,58 @@ body {
     padding: 0;
     margin: 0;
 }
-.postlist{
+
+.postlist {
     position: relative;
     max-width: 1320px;
     overflow: hidden;
     margin: 0 auto;
 }
-.slide{
+
+.slide {
     display: flex;
     position: relative;
     flex-wrap: nowrap;
     inline-size: none;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 
-.rolling{
+.rolling {
     width: 100%;
 }
 
-.postitem{
+.postitem {
     min-width: 20%;
     box-sizing: border-box;
     display: inline-block;
 }
 
-.poster{
+.poster {
     height: 360px;
     margin: 0;
     padding: 0;
 }
 
 
-.poster_img1{
-    background-image:url(./img/범죄도시\ 4.jpg);
+.poster-img1 {
+    background-image: url(./img/범죄도시\ 4.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 360px;
     margin: 0;
     padding: 0;
-    border-radius: 5px;
+    border-radius: px;
 }
-.poster_img2{
-    background-image:url(./img/하이큐.jpg);
+
+.poster-img2 {
+    background-image: url(./img/하이큐.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 360px;
     margin: 0;
     padding: 0;
-    border-radius: 5px;
 }
 
 .carousel-button {
@@ -348,21 +358,17 @@ body {
 
 .prev-button {
     left: 0;
-  }
-  
+}
+
 .next-button {
     right: 0;
-  }
-
-.expname{
-
 }
-.expyear{
 
-}
-.exprating{
-    
-}
+.expname {}
+
+.expyear {}
+
+.exprating {}
 
 #footer {
     position: relative;
