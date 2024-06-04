@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'NPSfontBold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts-2310@1.0/NPSfontBold.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
@@ -264,8 +264,14 @@ body {
     background-color: #27f418;
 }
 
-.popular-movie {
+.popular-movie{
     margin-bottom: 55px;
+}
+.new-movie {
+    margin-bottom: 40px;
+}
+.en-movie {
+    margin-bottom: 40px;
 }
 
 .title {
@@ -303,17 +309,31 @@ body {
     transition: transform 1s ease;
 }
 
+.list {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    gap: 1%;
+}
+
 .rolling {
     width: 100%;
 }
 
-.postitem {
+.listitem {
     min-width: 20%;
     box-sizing: border-box;
     display: inline-block;
 }
 
+.postitem {
+    min-width: 19%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
 .poster {
+    width: 100%;
     height: 360px;
     margin: 0;
     padding: 0;
@@ -370,6 +390,6 @@ body {
 
 .exprating {}
 
-#footer {
-    position: relative;
+.content {
+    flex: 1;
 }
