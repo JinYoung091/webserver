@@ -118,7 +118,7 @@ body {
     overflow-y: auto;
     position: absolute;
     width: 290px;
-    background-color: white;
+    background-color: #F5F5F7;
     z-index: 1000;
 }
 
@@ -267,7 +267,7 @@ body {
     margin-bottom: 55px;
 }
 
-.new-movie {
+.ko-movie {
     margin-bottom: 40px;
 }
 
