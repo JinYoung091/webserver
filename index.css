@@ -58,9 +58,9 @@ body {
     padding: 0;
     width: 500px;
     height: 70px;
-    margin: 0 auto;
+
     line-height: 60px;
-    margin-right: auto;
+
     z-index: 2;
 }
 
@@ -93,7 +93,7 @@ body {
     background-color: #F5F5F7;
     padding: 10px;
     border: 1px solid #F5F5F7;
-    margin-left: 30%;
+    margin-left: 32%;
 
 }
 
@@ -272,6 +272,9 @@ body {
 }
 
 .en-movie {
+    margin-bottom: 40px;
+}
+.am-movie{
     margin-bottom: 40px;
 }
 
