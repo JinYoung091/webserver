@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.slide');
   const nextButton = document.querySelector('.next-button');
@@ -7,13 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentIndex = 0;
   const itemsToShow = 5;
   const totalItems = carousel.children.length;
-  const itemWidth = 264; // Width for each item
+  const itemWidth = 264;
 
   nextButton.addEventListener('click', () => {
     if (currentIndex < totalItems - itemsToShow) {
       currentIndex += itemsToShow;
     } else {
-      currentIndex = 0; // Reset to the first set of items
+      currentIndex = 0;
     }
     updateCarousel();
   });
@@ -22,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentIndex > 0) {
       currentIndex -= itemsToShow;
     } else {
-      currentIndex = totalItems - itemsToShow; // Jump to the last set of items
+      currentIndex = totalItems - itemsToShow;
     }
     updateCarousel();
   });
@@ -33,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-document.querySelector(".search-box").addEventListener('submit', function (e) {
-  e.preventDefault()
+document.querySelector(".search-box").addEventListener('submit', function (event) {
+  event.preventDefault()
   const a = document.createElement("a")
   a.href = "/searchResult.html"
   a.click()
