@@ -327,10 +327,8 @@ body {
 }
 
 .list {
-    display: flex;
-    position: relative;
-    flex-wrap: nowrap;
-    gap: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
 }
 
 .rolling {
@@ -346,7 +344,11 @@ body {
 .postitem {
     min-width: 19.2%;
     box-sizing: border-box;
-    display: inline-block;
+
+}
+
+.poster{
+    width: 100%;
 }
 
 .poster-img {
@@ -356,8 +358,8 @@ body {
     padding: 0;
     background-size: cover;
     background-position: center;
-}
 
+}
 
 .poster-img1 {
     background-image: url(./img/범죄도시\ 4.jpg);
@@ -378,8 +380,14 @@ body {
     height: 360px;
     margin: 0;
     padding: 0;
-
 }
+
+.searchList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 5px;
+}   
+
 
 .carousel-button {
     position: absolute;

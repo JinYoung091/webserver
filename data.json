@@ -66,11 +66,20 @@
         },
         {
             "id": 1,
+            "name": "혹성탈출: 종의 전쟁",
+            "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
+            "release": 2024,
+            "nation": "한국",
+            "rating": 3
+        },
+        {
+            "id": 1,
             "name": "혹성탈출: 새로운 시대",
             "poster": "https://i.namu.wiki/i/Ad4rrW8-VauqlzGaXxS_nEtp2T80uYNUwMVUBif9sUt4w4E5sRVwKq8cIeQ4fbAvvMt2bfqfUExWDVqbhfLlRT5991pVxSMEx7b0v2OD1xbyuGgWUNDpu-OVGUa01kV56PIyQYnWFujbb04GAaQClQ.webp",
             "release": 2024,
             "nation": "한국",
             "rating": 3
         }
+        
     ]
 }
