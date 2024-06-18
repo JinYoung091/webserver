@@ -39,25 +39,26 @@ window.onload = function(){
   getSearchData().then(function(data){
     console.log(data)
     for(let i = 0; i < data.length; i++){
-      console.log(data[i])
-      const div = document.createElement("div")
-      div.innerHTML = 
-        '<div class="postitem">' +
-          '<a href="" class="view">' +
-            '<div class="poster">' +
-                '<div>' +
-                    '<img class="poster-img" src="'+ data[i].poster +'" alt="">' +
-                '</div>' +
-            '</div>' +
-            '<div>' +
-                '<div class="expname" style="cursor : pointer;">' + data[i].name + '</div>' +
-                '<div class="expyear" style="cursor : pointer;">' + data[i].release + " · " + data[i].nation +'</div>' +
-                '<div class="exprating" style="cursor : pointer;">' + convertRatingToText(data[i].rating) + '</div>' +
-            '</div>' +
-          '</a>' +
-        '</div>'
-      document.querySelector(".searchList").appendChild(div)
+      if(data[i].id === 1){
+        console.log(data[i])
+        const div = document.createElement("div")
+        div.innerHTML = 
+          '<div class="postitem">' +
+            '<a href="" class="view">' +
+              '<div class="poster">' +
+                  '<div>' +
+                      '<img class="poster-img" src="'+ data[i].poster +'" alt="">' +
+                  '</div>' +
+              '</div>' +
+              '<div>' +
+                  '<div class="expname" style="cursor : pointer;">' + data[i].name + '</div>' +
+                  '<div class="expyear" style="cursor : pointer;">' + data[i].release + " · " + data[i].nation +'</div>' +
+                  '<div class="exprating" style="cursor : pointer;">' + convertRatingToText(data[i].rating) + '</div>' +
+              '</div>' +
+            '</a>' +
+          '</div>'
+        document.querySelector(".searchList").appendChild(div)
+      }
     }
-    
   })
 }

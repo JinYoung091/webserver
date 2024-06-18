@@ -349,6 +349,7 @@ body {
 
 .poster{
     width: 100%;
+    
 }
 
 .poster-img {
@@ -356,6 +357,7 @@ body {
     height: 360px;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
 
@@ -384,11 +386,26 @@ body {
 
 .searchList{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
-    column-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
+    column-gap: 10px;
+}   
+.popularList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
+    column-gap: 10px;
 }   
 
+.koreaList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
+    column-gap: 10px;
+}
 
+.enList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
+    column-gap: 10px;
+}
 .carousel-button {
     position: absolute;
     top: 40%;
@@ -411,13 +428,6 @@ body {
 .next-button {
     right: 0;
 }
-
-.expname {}
-
-.expyear {}
-
-.exprating {}
-
 .content {
     flex: 1;
 }

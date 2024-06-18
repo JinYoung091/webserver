@@ -45,7 +45,7 @@
             "name": "혹성탈출: 진화의 시작",
             "poster": "https://i.namu.wiki/i/4m5c140pq1AuzshjXEBRZ8dszKHSIBYyGgFbgCsaRDXEtJfSnTrRkw9xN5LMpBF1qsFdzcPMihW-3ywZ2vZfHoW6ND9axCvTroRjx1roZJcm4XXax36e6YL5xnUZMX25aeyOygND_iF1TugZTw97iQ.webp",
             "release": 2024,
-            "nation": "한국",
+            "nation": "미국",
             "rating": 3
         },
         {
@@ -53,7 +53,7 @@
             "name": "혹성탈출: 반격의 서막",
             "poster": "https://i.namu.wiki/i/ebYfwdwG4Cip0IiTpkgogcsVluXrY9Zr7dvdBkqxFAeDr8-y-4LtlcPgjnaJ3XCJTQ_ReUQID75gH531jwu9DV2vkpzpG3EKy9U6BJS8c2rpnFO5gBL4qX2yhIvWqhMS9DrntgpD3Sw9f1eFfNT6pQ.webp",
             "release": 2024,
-            "nation": "한국",
+            "nation": "미국",
             "rating": 3
         },
         {
@@ -61,25 +61,24 @@
             "name": "혹성탈출: 종의 전쟁",
             "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
             "release": 2024,
-            "nation": "한국",
+            "nation": "미국",
             "rating": 3
-        },
-        {
-            "id": 1,
-            "name": "혹성탈출: 종의 전쟁",
-            "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
-            "release": 2024,
-            "nation": "한국",
-            "rating": 3
-        },
+        },       
         {
             "id": 1,
             "name": "혹성탈출: 새로운 시대",
             "poster": "https://i.namu.wiki/i/Ad4rrW8-VauqlzGaXxS_nEtp2T80uYNUwMVUBif9sUt4w4E5sRVwKq8cIeQ4fbAvvMt2bfqfUExWDVqbhfLlRT5991pVxSMEx7b0v2OD1xbyuGgWUNDpu-OVGUa01kV56PIyQYnWFujbb04GAaQClQ.webp",
             "release": 2024,
-            "nation": "한국",
+            "nation": "미국",
+            "rating": 3
+        },
+        {
+            "id": 1,
+            "name": "혹성탈출: 종의 전쟁",
+            "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
+            "release": 2024,
+            "nation": "미국",
             "rating": 3
         }
-        
     ]
 }
