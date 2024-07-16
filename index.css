@@ -163,7 +163,6 @@ body {
 
 #main {
     max-width: 1320px;
-    height: 1000px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
@@ -312,47 +311,47 @@ body {
 }
 
 .postlist {
+    width: 1320px;
     position: relative;
-    max-width: 1320px;
-    overflow: hidden;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .slide {
+    width: 100%;
     display: flex;
-    position: relative;
-    flex-wrap: nowrap;
-    inline-size: none;
-    transition: transform 1s ease;
+    transition: transform 0.5s ease-in-out;
+    
 }
 
-.list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+.slideList{
+    min-width: 200%;
+    overflow: hidden;
+    display: flex;
 }
 
 .rolling {
     width: 100%;
+    overflow: hidden;
 }
 
 .listitem {
-    min-width: 20%;
-    box-sizing: border-box;
-    display: inline-block;
+    width: 100%;
 }
 
 .postitem {
-    min-width: 19.2%;
+    min-width: 19.5%;
     box-sizing: border-box;
-
+}
+po{
+    width: 100%;
 }
 
 .poster{
     width: 100%;
-    
 }
 
-.poster-img {
+.posterImg {
     width: 100%;
     height: 360px;
     margin: 0;
@@ -363,71 +362,110 @@ body {
 
 }
 
-.poster-img1 {
-    background-image: url(./img/범죄도시\ 4.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 360px;
-    margin: 0;
-    padding: 0;
-
-}
-
-.poster-img2 {
-    background-image: url(./img/하이큐.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 360px;
-    margin: 0;
-    padding: 0;
-}
-
 .searchList{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
-    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
 }   
 .popularList{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
-    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
 }   
 
 .koreaList{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
-    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
+}
+
+.poList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
 }
 
 .enList{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(19.3%, auto));
-    column-gap: 10px;
-}
-.carousel-button {
-    position: absolute;
-    top: 40%;
-    width: 30px;
-    height: 30px;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
-    border-radius: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
 }
 
-.prev-button {
+.krList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
+}
+
+.amList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
+    column-gap: 7px;
+}
+
+.carouselList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 427px;
+    background-color: #f0f0f0;
+}
+
+.carouselContainer {
+    position: relative;
+    width: 1320px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 430px;
+}
+
+.carouselInner {
+    width: 100%;
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carouselItem {
+    min-width: 20%;
+    height: 430px;
+}
+
+.carouselItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prevButton {
     left: 0;
 }
 
-.next-button {
+.nextButton {
     right: 0;
 }
-.content {
-    flex: 1;
+
+.footer{
+    
+    border-top: 0.5px solid #EDEDED;
+    background-color: #F8F8F8;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
 }

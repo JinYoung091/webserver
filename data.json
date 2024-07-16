@@ -1,52 +1,52 @@
 {
     "data": [
         {
-            "id": 0,
-            "name": "극장판 하이큐!! 쓰레기장의 결전",
-            "poster": "https://i.namu.wiki/i/Ygw6yApqzOavlzStk4lGgFnHoT_iisiI_YaJXh8APRIth5_Utu2x978Eniua8QVl4LhNR1IYl003-sq_iCPiZw.webp",
-            "release": 2024,
-            "nation": "일본",
-            "rating": 2
-        },
-        {
             "id": 1,
             "name": "범죄도시 1",
             "poster": "https://i.namu.wiki/i/RbihA3k8AQeWX5ORDhnZzj5YmcQBBGvlOzybnETFsYmOvoct4lDUnzEFppZ0OIQX6aAhU3YaksSDInpAuCBecA1hoFsA4yXjFzRzcEHycTGQrkxqqpTbzv35-x84HTjPW9ozceMMkPa_DbccYuaKuQ.webp",
             "release": 2017,
             "nation": "한국",
-            "rating": 4
+            "score": 4
         },
         {
             "id": 1,
             "name": "범죄도시 2",
-            "poster": "https://i.namu.wiki/i/DG183UpEpmUpHsfzbZTeVVhVnYiGFARm68DvxPphLA6wICr1SFZ80_M7XgoU5_ezisgy9bdB9kA3YedrXaJx3msLE1_fofhvCIT3rLvIFidnZa4OPaEhcFsUK8yV1UhnLlDCInFyIBcA1HbRpVKBLQ.webp",
+            "poster": "https://i.namu.wiki/i/nPPzpWV_LuXfF-lgMAfIbbGVNp9UTo_qRxqP8AbEH7fT1JOesmeTRLdbav5WBP0OPyASJUZElEjc9GeXANUQrq0bn56MY0bImWlQLbGUheXXVC6cU7kFxRsXIWGX-roIp6Dhv4dC2b72HizRzJVgcw.webp",
             "release": 2022,
             "nation": "한국",
-            "rating": 5
+            "score": 5
         },
         {
             "id": 1,
             "name": "범죄도시 3",
-            "poster": "https://i.namu.wiki/i/dsrYYnx_XcvNwOiloB9gcJyp3Nl6KvUQSKh18DK7OBKRQsOPHCo7cCXK0JKRMMMFHLBbk2UKVGFxXbEEYhmBNIK59qkz9WwIDuv7kZ1QhTKqUbOFfJHIwcpBruP58S0dgjx-47O2snfxyEtWj44aYQ.webp",
+            "poster": "https://i.namu.wiki/i/iiJVVDjdrsXFxES_6gwKmleJjX96hxbEWyDmeryk0FDipJ3-Zk-U-Z0zYpv4VD2LZRzu_CLbCK7LE-VNlqfsu5QqyKeijrvkknXAoyI7QMQfHr_LdlxMiDpl1X1qv8KbT4sBsjKlricdL-Kf45Z67A.webp",
             "release": 2023,
             "nation": "한국",
-            "rating": 4
+            "score": 4
         },
         {
             "id": 1,
             "name": "범죄도시 4",
-            "poster": "https://i.namu.wiki/i/auJ5b2EDF6nQJPBf3uDbOpSr1LV8vkt5wG3QmulBrA2wZRno7la8bgmVWtWaSXGgjPQsZgdZ7mksBU73nGxcaDDVMhP8-7t374ryPODEouEWfoBANTDRJM__NMwO1kJXUp7mj_VunxheQssVYeC2eA.webp",
+            "poster": "https://i.namu.wiki/i/sSv3zhtkPnFcx08_uAeUrS80OK3lFZa_2f6HiXy11p7Ku3Kkce0JRF8o8IGM9DyekzUQRR7DGiDYb9bdS477jvW0Ubg9uYjYbd1dJHuj7_eoXTCsmvxd2v441obWBHZpr0Qu3mp2eLK2Jfd_vK9VgQ.webp",
             "release": 2024,
             "nation": "한국",
-            "rating": 2
+            "score": 2
+        },
+        {
+            "id": 1,
+            "name": "서울의 봄",
+            "poster": "https://i.namu.wiki/i/ycuacUHYbM7E4ihiKZtW_laLAfty54Lw4lG-39M1np2wNstGJ_8fI60OliFWvQgqD_a9qji1SbzTjvkpXAQPIy1cODoTI-wKzI_zBrMPG58RjW3MSEqwGj5sEZ42MlCKbfwNcVGEGfhvqk_fPqqwLw.webp",
+            "release": 2024,
+            "nation": "한국",
+            "score": 5
         },
         {
             "id": 1,
             "name": "혹성탈출: 진화의 시작",
-            "poster": "https://i.namu.wiki/i/4m5c140pq1AuzshjXEBRZ8dszKHSIBYyGgFbgCsaRDXEtJfSnTrRkw9xN5LMpBF1qsFdzcPMihW-3ywZ2vZfHoW6ND9axCvTroRjx1roZJcm4XXax36e6YL5xnUZMX25aeyOygND_iF1TugZTw97iQ.webp",
+            "poster": "https://img1.daumcdn.net/thumb/R1280x0/?fname=https://t1.daumcdn.net/brunch/service/user/deLr/image/1wZ3ojwo7Mnspo9hZXWmRQJSeT0.jpg",
             "release": 2024,
             "nation": "미국",
-            "rating": 3
+            "score": 2
         },
         {
             "id": 1,
@@ -54,7 +54,7 @@
             "poster": "https://i.namu.wiki/i/ebYfwdwG4Cip0IiTpkgogcsVluXrY9Zr7dvdBkqxFAeDr8-y-4LtlcPgjnaJ3XCJTQ_ReUQID75gH531jwu9DV2vkpzpG3EKy9U6BJS8c2rpnFO5gBL4qX2yhIvWqhMS9DrntgpD3Sw9f1eFfNT6pQ.webp",
             "release": 2024,
             "nation": "미국",
-            "rating": 3
+            "score": 3
         },
         {
             "id": 1,
@@ -62,7 +62,7 @@
             "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
             "release": 2024,
             "nation": "미국",
-            "rating": 3
+            "score": 5
         },       
         {
             "id": 1,
@@ -70,15 +70,15 @@
             "poster": "https://i.namu.wiki/i/Ad4rrW8-VauqlzGaXxS_nEtp2T80uYNUwMVUBif9sUt4w4E5sRVwKq8cIeQ4fbAvvMt2bfqfUExWDVqbhfLlRT5991pVxSMEx7b0v2OD1xbyuGgWUNDpu-OVGUa01kV56PIyQYnWFujbb04GAaQClQ.webp",
             "release": 2024,
             "nation": "미국",
-            "rating": 3
+            "score": 2
         },
         {
-            "id": 1,
-            "name": "혹성탈출: 종의 전쟁",
-            "poster": "https://i.namu.wiki/i/lAJgA5R_kupXbF-ya0Wb40hayHqsDANTssgw0vwXPE4qtuItthbVukVnJJm4MZEYpEqxicoqsKvyQBmfCmf3oKiVs-dFZMfTYdbois6fslSE2LgK6FugrCxuQ_Xh7GlvY6hhyb_LKMIpTIMCHJaVWw.webp",
+            "id": 0,
+            "name": "극장판 하이큐!! 쓰레기장의 결전",
+            "poster": "https://i.namu.wiki/i/Ygw6yApqzOavlzStk4lGgFnHoT_iisiI_YaJXh8APRIth5_Utu2x978Eniua8QVl4LhNR1IYl003-sq_iCPiZw.webp",
             "release": 2024,
-            "nation": "미국",
-            "rating": 3
+            "nation": "일본",
+            "score": 2
         }
     ]
 }

@@ -1,13 +1,5 @@
 // script.js
 
-const data = [
-    { name: "범인" },
-    { name: "범죄" },
-    { name: "범람" },
-    { name: "범위" },
-    { name: "정보" }
-];
-
 function search() {
     const query = document.getElementById('search-input').value.toLowerCase();
     const suggestions = document.getElementById('suggestions');

@@ -1,6 +1,6 @@
 function getSearchData(){
   return new Promise((resolve, reject) => {
-    fetch('data.json')
+    fetch('http://192.168.50.136:8080/api/data')
       .then(response => response.json())
       .then(data => {
         resolve(data.data)
@@ -8,31 +8,31 @@ function getSearchData(){
   })
 }
 
-function convertRatingToText(rating) {
-  let ratingText = "";
+function convertRatingToText(score) {
+  let scoreText = "";
 
-  switch (rating) {
+  switch (score) {
       case 1:
-          ratingText = "★☆☆☆☆";
+          scoreText = "★☆☆☆☆";
           break;
       case 2:
-          ratingText = "★★☆☆☆";
+          scoreText = "★★☆☆☆";
           break;
       case 3:
-          ratingText = "★★★☆☆";
+          scoreText = "★★★☆☆";
           break;
       case 4:
-          ratingText = "★★★★☆";
+          scoreText = "★★★★☆";
           break;
       case 5:
-          ratingText = "★★★★★";
+          scoreText = "★★★★★";
           break;
       default:
-          ratingText = "평점 정보 없음";
+          scoreText = "평점 정보 없음";
           break;
   }
 
-  return ratingText;
+  return scoreText;
 }
 
 window.onload = function(){
@@ -47,13 +47,13 @@ window.onload = function(){
             '<a href="" class="view">' +
               '<div class="poster">' +
                   '<div>' +
-                      '<img class="poster-img" src="'+ data[i].poster +'" alt="">' +
+                      '<img class="posterImg" src="'+ data[i].poster +'" alt="">' +
                   '</div>' +
               '</div>' +
               '<div>' +
                   '<div class="expname" style="cursor : pointer;">' + data[i].name + '</div>' +
                   '<div class="expyear" style="cursor : pointer;">' + data[i].release + " · " + data[i].nation +'</div>' +
-                  '<div class="exprating" style="cursor : pointer;">' + convertRatingToText(data[i].rating) + '</div>' +
+                  '<div class="expscore" style="cursor : pointer;">' + convertRatingToText(data[i].score) + '</div>' +
               '</div>' +
             '</a>' +
           '</div>'

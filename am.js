@@ -40,7 +40,7 @@ function getSearchData() {
     getSearchData().then(function(data){
       console.log(data)
       for(let i = 0; i < data.length; i++){
-        if(data[i].id === 3){
+        if(data[i].id === 2){
           console.log(data[i])
           const div = document.createElement("div")
           div.innerHTML = 
@@ -58,7 +58,7 @@ function getSearchData() {
                 '</div>' +
               '</a>' +
             '</div>'
-          document.querySelector(".enList").appendChild(div)
+          document.querySelector(".amList").appendChild(div)
         }
       }
     })
