@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <script src="https://kit.fontawesome.com/e9b9db9a02.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e9b9db9a02.js" crossoigin="anonymous"></script>
     <div id="header">
         <div class="header">
             <div class="menu">
@@ -24,9 +24,8 @@
                 </ul>
             </div>
             <script src="./header.js"></script>
-            <form class="search-box">
-                <input id="search-input" autocomplete="off" type="text" name="" placeholder="영화 제목이나 감독을 입력해보세요"
-                    onkeyup="search()">
+            <form class="search-box" action="" method="get">
+                <input id="searchForm" autocomplete="off" type="text" placeholder="검색어를 입력하세요">
                 <ul id="suggestions"></ul>
                 <button class="search-btn" type="submit">
                     <i style="width: 25px;" class="fa-solid fa-magnifying-glass"></i>

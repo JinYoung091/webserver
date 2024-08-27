@@ -79,7 +79,6 @@ window.onload = function () {
         let count = 0;
         for (let k = 0; k < data.length && count < 5; k++) {
             if (data[k].nation === "한국") {
-                console.log(data[k])
                 const kr = document.createElement("kr")
                 kr.innerHTML =
                     '<div class="postitem">' +
@@ -106,7 +105,6 @@ window.onload = function () {
         let count = 0;
         for (let e = 0; e < data.length && count < 5; e++) {
             if (data[e].id === 3) {
-                console.log(data[e])
                 const en = document.createElement("en")
                 en.innerHTML =
                     '<div class="postitem">' +
@@ -133,7 +131,6 @@ window.onload = function () {
         let count = 0;
         for (let a = 0; a < data.length && count < 5; a++) {
             if (data[a].id === 2) {
-                console.log(data[a])
                 const am = document.createElement("am")
                 am.innerHTML =
                     '<div class="postitem">' +
