@@ -1,11 +1,26 @@
-// app.js
-document.getElementById('search-form').addEventListener('submit', function(event) {
-    var searchValue = document.getElementById('searchForm').value.trim();
+// 검색어를 처리하는 함수
+var searchdata = document.getElementById("sh1");
 
-    if (!searchValue) {
-        event.preventDefault(); // 폼 제출 방지
-        alert("검색어를 입력하세요."); // 검색어가 비어있으면 경고
+
+function processSearch() {
+    const query = document.getElementById('searchForm').value;
+        // 예: search-results.html 페이지로 이동하며 검색어 전달
+        window.location.href = `search.html?q=${encodeURIComponent(search)}`;
+
+}
+
+// 엔터 키를 눌렀을 때 실행
+function handleSearch(event) {
+    if (event.key === 'Enter') { // 엔터 키인지 확인
+        processSearch(); // 검색어 처리 함수 호출
     }
-    // 폼이 제출되어야 할 경우(검색어가 입력된 경우)는 아무런 추가 처리를 하지 않음
-    // 기본 동작에 따라 'search.html'로 이동하게 됩니다.
-});
+}
+
+// 버튼 클릭 시 실행
+document.getElementById('searchButton').addEventListener('click', processSearch);
+
+// 입력 필드에 키보드 이벤트 리스너 추가
+document.getElementById('searchForm').addEventListener('keydown', handleSearch);
+
+document.getElementById('searchForm').addEventListener(KeyboardEvent,encodeURI);
+

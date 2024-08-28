@@ -25,9 +25,9 @@
             </div>
 
             <form class="search-box" action="search.html" method="get">
-                <input id="searchForm" name="query" autocomplete="off" type="text" placeholder="검색어를 입력하세요">
+                <input id="searchForm" name="search" autocomplete="off" type="text" placeholder="검색어를 입력하세요">
                 <ul id="suggestions"></ul>
-                <button class="search-btn" type="submit">
+                <button class="search-btn" type="button" id="searchButton">
                     <i style="width: 25px;" class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div>
-            <h1>검색결과</h1>
+            <h1 id="sh1"></h1>
 
                 <div class="searchList">
 
