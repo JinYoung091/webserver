@@ -23,9 +23,9 @@
                     </li>
                 </ul>
             </div>
-            <script src="./header.js"></script>
-            <form class="search-box" action="" method="get">
-                <input id="searchForm" autocomplete="off" type="text" placeholder="검색어를 입력하세요">
+
+            <form class="search-box" action="search.html" method="get">
+                <input id="searchForm" name="query" autocomplete="off" type="text" placeholder="검색어를 입력하세요">
                 <ul id="suggestions"></ul>
                 <button class="search-btn" type="submit">
                     <i style="width: 25px;" class="fa-solid fa-magnifying-glass"></i>
@@ -55,18 +55,15 @@
                 <p>계정이 없으신가요?<a href="" style="color: #27f418;">회원가입</a></p>
             </div>
         </div>
-
         <div>
-            <div>
-                <h1>검색결과</h1>
-            </div>
-            <div>
+            <h1>검색결과</h1>
+
                 <div class="searchList">
 
                 </div>
-            </div>
-        </div>
 
+        </div>
+        <script src="header.js"></script>
         <script src="index.js"></script>
         <script src="search.js"></script>
         
