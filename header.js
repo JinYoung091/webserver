@@ -1,26 +1,14 @@
-// 검색어를 처리하는 함수
-var searchdata = document.getElementById("sh1");
-
-
-function processSearch() {
-    const query = document.getElementById('searchForm').value;
-        // 예: search-results.html 페이지로 이동하며 검색어 전달
-        window.location.href = `search.html?q=${encodeURIComponent(search)}`;
-
+function search() {
+    // 사용자가 입력한 검색어를 가져옵니다.
+    const query = document.getElementById('searchInput').value;
+    
+    // 검색어를 URL에 포함하여 search.html로 이동합니다.
+    window.location.href = `/search.html?query=${encodeURIComponent(query)}`;
 }
 
-// 엔터 키를 눌렀을 때 실행
-function handleSearch(event) {
-    if (event.key === 'Enter') { // 엔터 키인지 확인
-        processSearch(); // 검색어 처리 함수 호출
+// 엔터 키가 눌렸을 때 검색 버튼을 클릭한 것처럼 동작하게 합니다.
+document.getElementById('searchInput').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        search();
     }
-}
-
-// 버튼 클릭 시 실행
-document.getElementById('searchButton').addEventListener('click', processSearch);
-
-// 입력 필드에 키보드 이벤트 리스너 추가
-document.getElementById('searchForm').addEventListener('keydown', handleSearch);
-
-document.getElementById('searchForm').addEventListener(KeyboardEvent,encodeURI);
-
+});
