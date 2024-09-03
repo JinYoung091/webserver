@@ -362,7 +362,7 @@ po{
 
 }
 
-.searchList{
+#searchList{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(19.5%, auto));
     column-gap: 7px;
@@ -468,4 +468,10 @@ po{
     margin-top: 100px;
     width: 100%;
     height: 200px;
+}
+.nametag{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
 }

@@ -6,6 +6,10 @@ function search() {
     window.location.href = `/search.html?query=${encodeURIComponent(query)}`;
 }
 
+document.getElementById('searchButton').addEventListener('click', function() {
+    search();
+});
+
 // 엔터 키가 눌렸을 때 검색 버튼을 클릭한 것처럼 동작하게 합니다.
 document.getElementById('searchInput').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
