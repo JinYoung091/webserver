@@ -47,7 +47,7 @@ window.onload = function () {
             const ca = document.createElement("div");
             ca.className = "postitem";
             ca.innerHTML =
-                `<a href="" class="view">
+                `<a href="" id="view">
                     <div class="poster">
                         <div>
                             <img class="posterImg" src="${movie.poster}" alt="">
@@ -82,7 +82,7 @@ window.onload = function () {
                 const kr = document.createElement("kr")
                 kr.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" class="view">' +
+                    '<a href="" id="view">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[k].poster + '" alt="">' +
@@ -108,7 +108,7 @@ window.onload = function () {
                 const en = document.createElement("en")
                 en.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" class="view">' +
+                    '<a href="" id="view">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[e].poster + '" alt="">' +
@@ -134,7 +134,7 @@ window.onload = function () {
                 const am = document.createElement("am")
                 am.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" class="view">' +
+                    '<a href="" id="view">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[a].poster + '" alt="">' +

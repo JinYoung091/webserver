@@ -27,7 +27,6 @@ function convertRatingToText(score) {
           text = "평점 정보 없음";
           break;
   }
-
   return text;
 }
 
@@ -48,7 +47,7 @@ if (query) {
           data.forEach(data => {  // 각 항목을 반복 처리합니다.
               const htmlContent = 
                   '<div class="postitem">' +
-                      '<a href="" class="view">' +
+                      '<a href="" id="'+ data.name +'">' +
                           '<div class="poster">' +
                               '<div>' +
                                   '<img class="posterImg" src="' + data.poster + '" alt="">' +
@@ -61,7 +60,6 @@ if (query) {
                           '</div>' +
                       '</a>' +
                   '</div>';
-
               // 새로운 div 요소를 만듭니다.
               const div = document.createElement('div');
               div.innerHTML = htmlContent; // HTML을 div 요소의 내용으로 설정합니다.
@@ -74,3 +72,5 @@ if (query) {
 
   console.log('No search parameter found in the URL.');
 }
+
+

@@ -44,7 +44,7 @@ function getSearchData() {
           const div = document.createElement("div")
           div.innerHTML = 
             '<div class="postitem">' +
-              '<a href="" class="view">' +
+              '<a href="" id="view">' +
                 '<div class="poster">' +
                     '<div>' +
                         '<img class="posterImg" src="'+ data[i].poster +'" alt="">' +
