@@ -33,21 +33,35 @@ function convertRatingToText(score) {
     }
 
     return text;
+}       
+function generateRandomIndexes(maxLength, count) {
+            const indexes = [];
+            while (indexes.length < count) {
+                const randomIndex = Math.floor(Math.random() * maxLength);
+                if (!indexes.includes(randomIndex)) {
+                    indexes.push(randomIndex);
+                }
+            }
+            return indexes;
 }
 
 window.onload = function () {
     getSearchData().then(function (data) {
+
+
+
         const poList = document.querySelector(".poList");
         poList.innerHTML = '';
 
-        const randomIndexes = generateRandomIndexes(data.length, 10);
 
+
+        const randomIndexes = generateRandomIndexes(data.length, 10);
         randomIndexes.forEach(index => {
             const movie = data[index];
             const ca = document.createElement("div");
             ca.className = "postitem";
             ca.innerHTML =
-                `<a href="" id="view">
+                `<a href="/detail.html?name=${movie.name}" id="${movie.name}">
                     <div class="poster">
                         <div>
                             <img class="posterImg" src="${movie.poster}" alt="">
@@ -62,16 +76,7 @@ window.onload = function () {
             poList.appendChild(ca);
         });
 
-        function generateRandomIndexes(maxLength, count) {
-            const indexes = [];
-            while (indexes.length < count) {
-                const randomIndex = Math.floor(Math.random() * maxLength);
-                if (!indexes.includes(randomIndex)) {
-                    indexes.push(randomIndex);
-                }
-            }
-            return indexes;
-        }
+
     });
 
 
@@ -82,7 +87,7 @@ window.onload = function () {
                 const kr = document.createElement("kr")
                 kr.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" id="view">' +
+                    '<a href="/detail.html?name='+ data[k].name +'" id="'+ data[k].name +'">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[k].poster + '" alt="">' +
@@ -108,7 +113,7 @@ window.onload = function () {
                 const en = document.createElement("en")
                 en.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" id="view">' +
+                    '<a href="/detail.html?name='+ data[e].name +'" id="'+ data[e].name +'">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[e].poster + '" alt="">' +
@@ -134,7 +139,7 @@ window.onload = function () {
                 const am = document.createElement("am")
                 am.innerHTML =
                     '<div class="postitem">' +
-                    '<a href="" id="view">' +
+                    '<a href="/detail.html?name='+ data[a].name +'" id="'+ data[a].name +'">' +
                     '<div class="poster">' +
                     '<div>' +
                     '<img class="posterImg" src="' + data[a].poster + '" alt="">' +

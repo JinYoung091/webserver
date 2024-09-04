@@ -53,7 +53,7 @@ body {
     display: block;
 }
 
-.search-box {
+.searchBox {
     display: flex;
     align-items: center;
 }
@@ -124,7 +124,7 @@ body {
         width: 100%;
     }
 
-    .search-box {
+    .searchBox {
         width: 100%;
         margin-top: 10px;
     }

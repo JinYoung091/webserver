@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+li,
+ol,
+ul {
+    list-style: none
+}
+
+body,
+html,
+ol,
+ul {
+    margin: 0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#header{
+    margin: 0 auto;
+    height: 70px;
+    background-color: #fff;
+    font-family: 'KCC-Hanbit', sans-serif;
+    border-bottom: .5px solid #757575;
+}
+.header {
+    max-width: 1320px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.menu{
+    padding: 0;
+    width: 500px;
+    line-height: 60px;
+    z-index: 2;
+    height: 70px;
+}
+.menu>ul>li{
+    height: 70px;
+    float: left;
+    width: 120px;
+    position: relative;
+}
+.menu>ul>li>ul{
+    width: 130px;
+    display: none;    
+    position: absolute;
+    font-size: 14px;
+    background: #ffffff3b;
+}
+.menu>ul>li:hover>ul {
+    display: block;
+}
+#logo {
+    width: 180px;
+    font-size: 20px;
+}
+.searchBox {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    background-color: #F5F5F7;
+    border: 1px solid #f5f5f7;
+    margin-left: auto;
+}
+
+#searchInput{
+    background-color: #f5f5f7;
+    line-height: 30px;
+    border: none;
+    outline: 0;
+    float: left;
+    padding: 0;
+    color: #797979;
+    font-size: 16px;
+    width: 90%
+}
+#searchButton {
+    color: #a1ff9b;
+    font-family: 'KKC-Hanbit';
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-open-modal {
+    border: 0;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    color: #757575;
+    font-family: 'KCC-Hanbit', sans-serif;
+    cursor: pointer;
+}
+
+
+#poster{
+    width: 400px;
+    
+}
+
+#main {
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-start;
+}
+.poster {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 2em;
+    margin: 10px 0;
+}
+.rating {
+    font-size: 1.2em;
+    color: #FFD700; /* 별점 색상 */
+    margin-bottom: 10px;
+}
+.country {
+    font-size: 1em;
+    color: #555;
+}
