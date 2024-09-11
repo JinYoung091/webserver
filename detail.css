@@ -76,6 +76,7 @@ a{
     background-color: #F5F5F7;
     border: 1px solid #f5f5f7;
     margin-left: auto;
+    border-radius: 12px;
 }
 
 #searchInput{
@@ -114,11 +115,10 @@ a{
 
 #poster{
     width: 400px;
-    
 }
 
 #main {
-    max-width: 1320px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: #FFFFFF;
     font-family: Arial, sans-serif;
@@ -127,7 +127,7 @@ a{
 .container {
     display: flex;
     flex-direction: column; 
-    align-content: flex-start;
+    justify-content: flex-start;
 }
 .poster {
     width: 300px;
@@ -148,4 +148,7 @@ a{
 .country {
     font-size: 1em;
     color: #555;
+}
+.detail {
+    
 }

@@ -75,7 +75,8 @@ html, body {
     background-color: #F5F5F7;
     padding: 10px;
     border: 1px solid #F5F5F7;
-    margin-left: auto
+    margin-left: auto;
+    border-radius: 12px;
 }
 #searchInput {
     border: none;

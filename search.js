@@ -2,7 +2,6 @@ const BACKEND_URL = 'http://192.168.50.136:8080/api/search';
 
 const urlParams = new URLSearchParams(window.location.search);
 const query = urlParams.get('search');
-console.log('Search Parameter:', query);
 
 function convertRatingToText(score) {
   let text = "";
@@ -47,7 +46,7 @@ if (query) {
           data.forEach(data => {  // 각 항목을 반복 처리합니다.
               const htmlContent = 
                   '<div class="postitem">' +
-                      '<a href="" id="'+ data.name +'">' +
+                      '<a href="/detail.html?name='+ data.name +'" id="'+ data.name +'">' +
                           '<div class="poster">' +
                               '<div>' +
                                   '<img class="posterImg" src="' + data.poster + '" alt="">' +
@@ -68,9 +67,5 @@ if (query) {
 
       })
       .catch(error => console.error('Error fetching search results:', error));
-} else {
-
-  console.log('No search parameter found in the URL.');
-}
-
+    }
 
