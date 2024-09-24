@@ -45,7 +45,7 @@ function convertRatingToText(score) {
           const div = document.createElement("div")
           div.innerHTML = 
             '<div class="postitem">' +
-              '<a href="" id="view">' +
+              '<a href="/detail.html?name='+ data[i].name +'" id="'+ data[i].name +'">' +
                 '<div class="poster">' +
                     '<div>' +
                         '<img class="posterImg" src="'+ data[i].poster +'" alt="">' +

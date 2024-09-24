@@ -103,52 +103,87 @@ a{
     justify-content: center;
     align-items: center;
 }
-.btn-open-modal {
-    border: 0;
-    margin-left: 20px;
-    background-color: #FFFFFF;
-    color: #757575;
-    font-family: 'KCC-Hanbit', sans-serif;
-    cursor: pointer;
-}
-
 
 #poster{
-    width: 400px;
+    width: 600px;
+    height: 400px;
 }
 
 #main {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #FFFFFF;
     font-family: Arial, sans-serif;
-    padding: 20px;
 }
 .container {
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start;
+    flex-flow: column nowrap;
+    justify-content: start;
+    width: 1000px;
+    height: 900px;
 }
-.poster {
-    width: 300px;
-    height: 450px;
+
+.poster{
+    margin-top: 10px;
+    height: 650px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:auto;
+
+    left: 50%;
+    transform: translate( -50%);
+}
+.jss{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 .title {
-    font-size: 2em;
+    font-weight: bold;
+    font-size: 3em;
     margin: 10px 0;
+
 }
 .rating {
-    font-size: 1.2em;
-    color: #FFD700; /* 별점 색상 */
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 .country {
-    font-size: 1em;
+    font-size: 1.1em;
     color: #555;
+
 }
 .detail {
-    
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0px 20px;
+
+    font-size: 2cap;
+    font-family: 'KKC-Hanbit';
+    font-weight: bold;
+    height: 650px;
+    width: 433px;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    background: rgba(235, 234, 234, 0.74);
+    opacity: 0;
+    transition: opacity 2s;
+
+    left: 50%;
+    transform: translate(-50%);
+}
+.overflow{
+    margin: 0 auto;
+    width: 50%;
+    height: 75%;
+    position: relative
+}
+
+.overflow:hover .detail{
+    opacity: 1;
 }
