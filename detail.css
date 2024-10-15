@@ -187,3 +187,17 @@ a{
 .overflow:hover .detail{
     opacity: 1;
 }
+.autocomplete{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    background-color: #E9E9E9;
+    position: relative;
+    z-index: 20;
+}
+
+.autocompleteItem{
+    margin: 2.5px 0 5px 0;
+}

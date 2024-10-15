@@ -40,7 +40,6 @@ window.onload = function () {
     console.log(data)
     for (let i = 0; i < data.length; i++) {
       if (data[i].id === 3) {
-        console.log(data[i])
         const div = document.createElement("div")
         div.innerHTML =
           '<div class="postitem">' +

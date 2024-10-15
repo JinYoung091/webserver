@@ -16,3 +16,43 @@ document.getElementById('searchInput').addEventListener('keypress', function(eve
         search();
     }
 });
+
+const BACKEN_URL = 'http://192.168.50.136:8080/api/search-terms/recommendations';
+let debounceTimeout;
+
+document.getElementById("searchInput").addEventListener('keyup', function() {
+    clearTimeout(debounceTimeout);
+    debounceTimeout = setTimeout(() => {
+        searchLS();
+    }, 500);
+});
+
+function searchLS() {
+    const key = document.getElementById('searchInput').value.trim();//앞뒤
+
+    const resultsElement = document.getElementById('autocomplete');
+    resultsElement.innerHTML = '';
+
+    if (key) {
+        fetch(`${BACKEN_URL}?term=${key}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+                if (data.length > 0) {
+                    data.forEach(item => {
+                        const div = document.createElement('div');
+                        div.textContent = item;
+                        div.classList.add('autocompleteItem');
+
+                        div.addEventListener('click', function() {
+                            document.getElementById('searchInput').value = item;
+                            window.location.href = `/search.html?search=${encodeURIComponent(item)}`;
+                        });
+
+                        resultsElement.appendChild(div);
+                    });
+                }
+            })
+            .catch(error => console.error('Error fetching search results:', error));
+    }
+}

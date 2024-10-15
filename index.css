@@ -88,6 +88,7 @@ html, body {
     font-size: 16px;
     line-height: 30px;
     width: 90%;
+    font-weight: bold;
     
 }
 #searchButton {
@@ -365,4 +366,19 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.autocomplete{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    background-color: #E9E9E9;
+    position: relative;
+    z-index: 20;
+}
+
+.autocompleteItem{
+    margin: 2.5px 0 5px 0;
 }
