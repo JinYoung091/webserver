@@ -40,7 +40,7 @@ function convertRatingToText(score) {
     getSearchData().then(function(data){
       console.log(data)
       for(let i = 0; i < data.length; i++){
-        if(data[i].score === 4,5){
+        if(data[i].score > 3){
           console.log(data[i])
           const div = document.createElement("div")
           div.innerHTML = 
